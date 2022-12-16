@@ -298,6 +298,9 @@
 				Base,
 			);
 			mainGroup = 1DE47EDB294A1DED00553061;
+			packageReferences = (
+				1DE06A5F294D2FAE0083E1FA /* XCRemoteSwiftPackageReference "wikipediakit" */,
+			);
 			productRefGroup = 1DE47EE5294A1DED00553061 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -713,6 +716,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DE06A5F294D2FAE0083E1FA /* XCRemoteSwiftPackageReference "wikipediakit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raureif/wikipediakit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1DE47EDC294A1DED00553061 /* Project object */;
 }
